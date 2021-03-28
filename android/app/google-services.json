@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877962293095",
+    "project_id": "enkel-chat-1",
+    "storage_bucket": "enkel-chat-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877962293095:android:1187663e652fb703da49c2",
+        "android_client_info": {
+          "package_name": "no.enkel_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877962293095-o454ijurls6s8fiomv13jrcmlpbpphfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVxYjhw_n2ey8Hwe3du4srpRM0lySnDm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877962293095-o454ijurls6s8fiomv13jrcmlpbpphfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
