@@ -3,4 +3,4 @@
 En enkel chat Flutter applikasjon.
 
 ## APK
-Finner du i build/app/outputs :)
+Finner dere i build/app/outputs :)
