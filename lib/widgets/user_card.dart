@@ -44,17 +44,16 @@ class UserCard extends StatelessWidget {
                   tag: 'pfpHero: $index',
                   child: CircleAvatar(
                     radius: 25.0,
-                    backgroundImage: image == null
+                    backgroundImage: image == null || image.isEmpty
                         ? null
                         : NetworkImage(
                             image,
                           ),
-                    child: image != null
-                        ? null
-                        : Text(
-                            title.toString().split(' ').first[0] +
-                                title.toString().split(' ').last[0],
-                          ),
+                    child: image == null || image.isEmpty
+                        ? Text(
+                            title[0],
+                          )
+                        : null,
                   ),
                 ),
                 SizedBox(
@@ -74,7 +73,9 @@ class UserCard extends StatelessWidget {
                             overflow: TextOverflow.ellipsis,
                           ),
                           Text(
-                            dateTime,
+                            dateTime == null || dateTime.isEmpty
+                                ? ''
+                                : dateTime,
                             style: kDescriptionStyle,
                             softWrap: true,
                           ),

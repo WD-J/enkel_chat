@@ -28,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return Center(
-              child: Text('ERROR: ' + snapshot.data.toString()),
+              child: Text('ERROR: ' + snapshot.error.toString()),
             );
           }
           if (snapshot.connectionState == ConnectionState.done) {
